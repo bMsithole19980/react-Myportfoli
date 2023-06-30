@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import React from 'react';
 import Navbar from './Navbar';
 import Introduction from './introduction';
-
+import Projects from './Projects';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       
       <Navbar/>
       <Introduction/>
+      <Projects/>
     </div>
   );
 }

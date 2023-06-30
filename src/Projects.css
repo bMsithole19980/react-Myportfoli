@@ -1,0 +1,70 @@
+.cv-button{
+    width: 7rem;
+    height: 3rem;
+    justify-content: left;
+
+}
+.cool-text-left{
+    display: flex;
+    flex-direction: column;
+
+}
+.cool-text-left>:nth-child(1){
+    font-size: 2rem;
+    color: black;
+    font-display: bold;
+    
+    font-family: 98;
+}
+.cool-text-left>:nth-child(2){
+    font-size: 2rem;
+    color: plum;
+    font-family: 98;
+}
+.cv-button{
+    border-radius:33px ;
+    border: none;
+    padding: 11px 26px 11px 26px;
+    box-shadow: 0px 20px 34px 3px ;
+    font-size: 16px;
+    color: black;
+    background: plum ;
+    
+}
+.awosem-left{
+  display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesom-name{
+    display: flex;
+    flex-direction: column;
+}
+.awesom-name>:nth-child(1){
+    font-size: 2rem;
+    color: black;
+    font-display: bold;
+    
+    font-family: 98;
+}
+.awesom-name>:nth-child(2){
+    font-size: 2rem;
+    color: plum;
+    font-family: 98;
+}
+.s-button{
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+

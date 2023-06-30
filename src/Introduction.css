@@ -1,6 +1,4 @@
-.button{
 
-}
 .button :hover{
     border-radius: 14px;
     color: aqua;
@@ -40,7 +38,7 @@
     
 }
 .intro-left img{
-    max-width: 100%;
+    max-width: 1000px;
     height: auto;
     margin-bottom: 1rem;
     margin-right: auto;
