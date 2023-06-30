@@ -1,0 +1,102 @@
+.button{
+
+}
+.button :hover{
+    border-radius: 14px;
+    color: aqua;
+
+}
+.intro{
+    display: flex;
+    margin-top: 6rem;
+    height: 77vh;
+}
+
+.intro-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+ 
+
+} 
+.intro-right{
+    
+
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.intro-left{
+    flex: 1;
+    position: relative; 
+    top: 2px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.intro-left img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-right: auto;
+}
+.intro-left>*{
+    position: absolute;
+    z-index: 1;
+}
+.button{
+    border-radius:33px ;
+    border: none;
+    padding: 11px 26px 11px 26px;
+    box-shadow: 0px 20px 34px 3px ;
+    font-size: 16px;
+    color: black;
+    background: plum ;
+    
+}
+.intro-button{
+    width: 7rem;
+    height: 3rem;
+    justify-content: left;
+}
+.intro-name{
+    display: flex;
+    flex-direction: column;
+}
+.intro-name>:nth-child(1){
+    font-size: 2rem;
+    color: black;
+    font-display: bold;
+    
+    font-family: 98;
+}
+.intro-name>:nth-child(2){
+    font-size: 2rem;
+    color: plum;
+    font-family: 98;
+}
+.intro-name>:nth-child(3){
+    font-size: 2rem;
+    color: dimgrey;
+    font-family: 98;
+    margin-top: 10px;
+}
+.intro-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+    
+    
+    
+
+}
+.intro-icon>*:hover{
+    color: blue;
+    border-radius: 14px;
+
+}

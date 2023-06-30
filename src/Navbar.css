@@ -1,0 +1,35 @@
+.nav-wrapper{
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  font-family: sans-serif;
+  
+}
+.nav-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+
+}
+.nav-name{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.nav-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-items: center;
+    font-weight: bolder;
+}
+.nav-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+.nav-list>ul>li:hover{
+    cursor: pointer;
+    color: blueviolet;
+
+}
